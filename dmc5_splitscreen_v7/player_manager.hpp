@@ -1,0 +1,18 @@
+#pragma once
+#include "common.hpp"
+#include <string>
+
+namespace ss::player {
+
+bool init();              // hook de diagnostico en PlayerManager::doUpdate (una vez)
+void on_frame();          // cada frame: singletons, deteccion de jugadores, sondeo de carga
+void report_state();
+void report_pads();       // v7: todos los app.PadInput vistos en update() y su estado      // vuelca el estado real de jugadores y cargador adicional
+void p2_spawn(const std::string& arg);   // repite CharacterFactory.create con padre+delegado reales del juego
+void p2_load();           // pide al juego cargar un jugador adicional (flujo nativo)
+void p2_activate();       // llama al activatePlayerResource() del cargador pedido
+void p2_finish();         // requestFinishPlayerResource del jugador pedido
+bool has_player2();
+reframework::API::ManagedObject* player2();
+
+} // namespace ss::player

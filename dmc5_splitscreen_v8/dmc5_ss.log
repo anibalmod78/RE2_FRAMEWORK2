@@ -1,0 +1,553 @@
+[+   0.000 f0] ==== dmc5_splitscreen compilado Oct 26 2026 23:30:55 ====
+[+   0.000 f0] proceso: E:\SteamLibrary\steamapps\common\Devil May Cry 5\
+[+   0.000 f0] log principal: E:\SteamLibrary\steamapps\common\Devil May Cry 5\reframework\data\dmc5_ss.log  (abierto=1, error_apertura=0)
+[+   0.000 f0] API de plugins de REFramework (runtime): 1.10.0
+[+   0.000 f0] ordenes: archivo dmc5_ss_cmd.txt o teclas F5..F11 (ver cabecera de main.cpp)
+[+   0.031 f0] Hook XInputGetState OK en xinput1_4.dll
+[+   0.047 f1] on_frame ACTIVO (UpdateBehavior, hilo 8548)
+[+   0.531 f30] init: hook de diagnostico en app.PlayerManager::doUpdate; grabacion de CharacterFactory.create activa
+[+   0.531 f30] trace: hook #0 en app.PlayerManager::addPlayer/1 (id 4)
+[+   0.531 f30] trace: hook #1 en app.PlayerManager::addPlayerCore/1 (id 6)
+[+   0.531 f30] trace: hook #2 en app.PlayerManager::removePlayer/2 (id 8)
+[+   0.531 f30] trace: hook #3 en app.PlayerManager::setCostumeInfo/3 (id 10)
+[+   0.531 f30] trace: hook #4 en app.PlayerManager::setCostumeID/2 (id 12)
+[+   0.531 f30] trace: hook #5 en app.PlayerManager::setSituationID/2 (id 14)
+[+   0.531 f30] trace: hook #6 en app.PlayerManager::playAIMode/3 (id 16)
+[+   0.531 f30] trace: hook #7 en app.AdditionalPlayerLoadManager::requestPreloadPlayerResource/1 (id 18)
+[+   0.531 f30] trace: hook #8 en app.AdditionalPlayerLoadManager::requestLoadPlayerResource/4 (id 20)
+[+   0.531 f30] trace: hook #9 en app.AdditionalPlayerLoadManager::requestUnloadPlayerResource/1 (id 22)
+[+   0.531 f30] trace: hook #10 en app.AdditionalPlayerLoadManager::requestFinishPlayerResource/1 (id 24)
+[+   0.531 f30] trace: hook #11 en app.AdditionalPlayerLoadManager::requestFinishAllPlayerResource/0 (id 26)
+[+   0.531 f30] trace: hook #12 en app.AdditionalPlayerLoadManager.AdditionalPlayerLoader::init/0 (id 28)
+[+   0.531 f30] trace: hook #13 en app.AdditionalPlayerLoadManager.AdditionalPlayerLoader::preloadNakidPlayerResource/0 (id 30)
+[+   0.531 f30] trace: hook #14 en app.AdditionalPlayerLoadManager.AdditionalPlayerLoader::loadAddtionalPlayerResource/3 (id 32)
+[+   0.531 f30] trace: hook #15 en app.AdditionalPlayerLoadManager.AdditionalPlayerLoader::activatePlayerResource/0 (id 34)
+[+   0.531 f30] trace: hook #16 en app.AdditionalPlayerLoadManager.AdditionalPlayerLoader::unloadAdditionalPlayerResource/0 (id 36)
+[+   0.531 f30] trace: hook #17 en app.CharacterFactory::load/3 (id 38)
+[+   0.531 f30] trace: hook #18 en app.CharacterFactory::create/5 (id 40)
+[+   0.531 f30] trace: hook #19 en app.CharacterFactory::create/3 (id 42)
+[+   0.531 f30] trace: hook #20 en app.CharacterFactory::unload/1 (id 44)
+[+   0.531 f30] trace: hook #21 en app.CharacterFactory::unloadAll/0 (id 46)
+[+   0.531 f30] trace: hook #22 en app.CharacterFactory.FinishCreationEvent::Invoke/3 (id 48)
+[+   0.531 f30] trace: hook #23 en app.PlayerManager::findPlayer/0 (id 50)
+[+   0.531 f30] trace: hook #24 en app.PlayerManager::updateMissionInitCheck/0 (id 52)
+[+   0.531 f30] trace: hook #25 en app.PlayerManager::initCostumeInfo/0 (id 54)
+[+   0.547 f30] trace: hook #26 en app.NetworkCharacterManager::registerCharacter/2 (id 56)
+[+   0.547 f30] trace: hook #27 en app.NetworkCharacterManager::releaseCharacter/1 (id 58)
+[+   0.547 f30] trace: hook #28 en app.PadInput::update/0 (id 60)
+[+   0.547 f30] trace: instalacion terminada, 29 hooks (intentos: 1)
+[+   0.547 f30] p2input: hook en app.PadInput::update/0
+[+   0.547 f30] p2input: hook en via.hid.GamePad::getDevice/1
+[+   0.547 f30] p2input: hook en via.hid.GamePad::getDevice/2
+[+   0.547 f30] p2input: hook en via.hid.GamePad::getDevice/2
+[+   0.547 f30] p2input: hook en via.hid.GamePad::getMergedDevice/1
+[+   1.031 f60] app.AdditionalPlayerLoadManager disponible (00000226F7195FD0)
+[+  30.062 f1800] latido: frame=1800
+[+  60.093 f3600] latido: frame=3600
+[+  90.140 f5400] latido: frame=5400
+[+ 120.718 f7200] latido: frame=7200
+[+ 127.750 f7620] PlayerManager cambio: 0000000000000000 -> 00000226F7206CF0 (nueva mision o fin de mision)
+[+ 127.750 f7620] PlayerManager.players: -1 -> 0
+[+ 150.750 f9000] latido: frame=9000
+[+ 180.859 f10800] latido: frame=10800
+[+ 210.890 f12600] latido: frame=12600
+[+ 231.906 f13860] P1 (manualPlayer) detectado: app.PlayerDante
+[+ 231.922 f13860] hook de personaje en app.PlayerDante::doLateUpdate
+[+ 231.922 f13860] hook de personaje en app.Player::doLateUpdate
+[+ 231.937 f13860] hook de personaje en app.character.Character::doUpdate
+[+ 231.937 f13860] hook de personaje en app.character.Character::doLateUpdate
+[+ 231.937 f13860] hook de personaje en app.GameModel::doUpdate
+[+ 231.937 f13860] hook de personaje en app.GameModel::doLateUpdate
+[+ 231.937 f13860] hook de personaje en app.ReplayBaseBehavior::doUpdate
+[+ 231.937 f13860] hook de personaje en app.ReplayBaseBehavior::doLateUpdate
+[+ 231.937 f13860] hook de personaje en app.NetworkBaseBehavior::doUpdate
+[+ 231.937 f13860] hook de personaje en app.NetworkBaseBehavior::doLateUpdate
+[+ 231.937 f13860] PlayerManager.players: 0 -> 1
+[+ 231.937 f13860]   player[0] GO='pl0130_dante_dirt' padre='null'
+[+ 231.937 f13860]   player[0] componentes de su GO: app.Player=00000226EBD35070 (tipo real app.PlayerDante) app.character.Character=00000226EBD35070 (tipo real app.PlayerDante) app.PlayerDante=00000226EBD35070 (tipo real app.PlayerDante) 
+[+ 231.937 f13860]   player[0] hijos de su GO: 'IKFootL' 'IKFootR' 'IKHandL' 'IKHandR' 'FBIKTargetHandL' 'FBIKTargetHandR' 'ac01_010_fausthat_cloak' 'ac01_009_emperor_goggles' 
+[+ 231.937 f13860]   player[0] controlType=0(0=Manual,1=Auto) isManuallyControlled=1 isMasterManualPlayer=1 aiModeController=00000226F62B3000
+[+ 231.937 f13860]   player[0] 00000226EBD35070 tipo=app.PlayerDante id=Dante(1) pos=(0.00, 0.00, 0.00) padInput=00000226F62B2600 [P1/manual]
+[+ 237.578 f14190] PlayerManager.players: 1 -> 3
+[+ 237.578 f14190]   player[0] GO='pl0130_dante_dirt' padre='null'
+[+ 237.578 f14190]   player[0] componentes de su GO: app.Player=00000226EBD35070 (tipo real app.PlayerDante) app.character.Character=00000226EBD35070 (tipo real app.PlayerDante) app.PlayerDante=00000226EBD35070 (tipo real app.PlayerDante) 
+[+ 237.578 f14190]   player[0] hijos de su GO: 'IKFootL' 'IKFootR' 'IKHandL' 'IKHandR' 'FBIKTargetHandL' 'FBIKTargetHandR' 'ac01_010_fausthat_cloak' 'ac01_009_emperor_goggles' 
+[+ 237.578 f14190]   player[0] controlType=0(0=Manual,1=Auto) isManuallyControlled=1 isMasterManualPlayer=1 aiModeController=00000226F62B3000
+[+ 237.578 f14190]   player[0] 00000226EBD35070 tipo=app.PlayerDante id=Dante(1) pos=(-13.56, 111.27, -29.12) padInput=00000226F71046B0 [P1/manual]
+[+ 237.578 f14190]   player[1] GO='pl0200_v' padre='null'
+[+ 237.578 f14190]   player[1] componentes de su GO: app.Player=00000226EBF66F40 (tipo real app.PlayerV) app.character.Character=00000226EBF66F40 (tipo real app.PlayerV) app.PlayerV=00000226EBF66F40 (tipo real app.PlayerV) 
+[+ 237.578 f14190]   player[1] hijos de su GO: 'PuppetStayRequester' 'wp02_000_stick' 'effect_pl0200_v' 'effect_pl0200_v' 'effect_pl0200_v' 'FBIKTargetHandL' 'FBIKTargetHandR' 'IKFootL' 
+[+ 237.578 f14190]   player[1] controlType=0(0=Manual,1=Auto) isManuallyControlled=0 isMasterManualPlayer=0 aiModeController=00000226F5ECE370
+[+ 237.578 f14190]   player[1] 00000226EBF66F40 tipo=app.PlayerV id=Gilver(2) pos=(-19.06, 111.33, 24.51) padInput=00000226F5ECED60
+[+ 237.578 f14190]   player[2] GO='pl0030_nero' padre='null'
+[+ 237.578 f14190]   player[2] componentes de su GO: app.Player=00000226EBF59200 (tipo real app.PlayerNero) app.character.Character=00000226EBF59200 (tipo real app.PlayerNero) app.PlayerNero=00000226EBF59200 (tipo real app.PlayerNero) 
+[+ 237.578 f14190]   player[2] hijos de su GO: 'PuppetStayRequester' 'IKFootL' 'IKFootR' 'IKHandL' 'IKHandR' 'pl0000_08_human_arm' 'pl0010_devilWingControllerSS' 'pl0010_devilWingControllerSB' 
+[+ 237.578 f14190]   player[2] controlType=0(0=Manual,1=Auto) isManuallyControlled=0 isMasterManualPlayer=0 aiModeController=00000226F5EEB620
+[+ 237.578 f14190]   player[2] 00000226EBF59200 tipo=app.PlayerNero id=Nero(0) pos=(33.08, 111.27, 4.79) padInput=00000226F5EEC9A0
+[+ 243.031 f14400] latido: frame=14400
+[+ 268.672 f15380] ORDEN: state
+[+ 268.672 f15380] =========== ESTADO ===========
+[+ 268.672 f15380] grabaciones de create vigentes: 0
+[+ 268.672 f15380] --- GameObjects creados por CharacterFactory.create(prefab,...) [state]: 18 ---
+[+ 268.672 f15380]   (creado en f10191) GO=00000226F6266CC0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 268.672 f15380]       hijos: (sin hijos o no legibles)
+[+ 268.672 f15380]   (creado en f10191) GO=00000226F6551AA0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 268.672 f15380]       hijos: (sin hijos o no legibles)
+[+ 268.672 f15380]   (creado en f10202) GO=00000226F64DB090 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 268.672 f15380]       hijos: (sin hijos o no legibles)
+[+ 268.672 f15380]   (creado en f10202) GO=00000226F657E360 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 268.672 f15380]       hijos: (sin hijos o no legibles)
+[+ 268.672 f15380]   (creado en f10208) GO=00000226F625A180 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 268.672 f15380]       hijos: (sin hijos o no legibles)
+[+ 268.672 f15380]   (creado en f10208) GO=00000226F66B2BE0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 268.672 f15380]       hijos: (sin hijos o no legibles)
+[+ 268.672 f15380]   (creado en f10215) GO=00000226F64C6820 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 268.672 f15380]       hijos: (sin hijos o no legibles)
+[+ 268.672 f15380]   (creado en f10215) GO=00000226F62C9CD0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 268.672 f15380]       hijos: (sin hijos o no legibles)
+[+ 268.672 f15380]   (creado en f10217) GO=00000226F6486720 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 268.672 f15380]       hijos: (sin hijos o no legibles)
+[+ 268.672 f15380]   (creado en f10217) GO=00000226F62BF6A0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 268.672 f15380]       hijos: (sin hijos o no legibles)
+[+ 268.672 f15380]   (creado en f10219) GO=00000226F623C860 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 268.672 f15380]       hijos: (sin hijos o no legibles)
+[+ 268.672 f15380]   (creado en f10219) GO=00000226F627B350 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 268.672 f15380]       hijos: (sin hijos o no legibles)
+[+ 268.672 f15380]   (creado en f11409) GO=00000226F65A3850 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 268.672 f15380]       hijos: (sin hijos o no legibles)
+[+ 268.672 f15380]   (creado en f11409) GO=00000226F63752F0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 268.672 f15380]       hijos: (sin hijos o no legibles)
+[+ 268.672 f15380]   (creado en f11412) GO=00000226F651CC10 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 268.672 f15380]       hijos: (sin hijos o no legibles)
+[+ 268.672 f15380]   (creado en f11412) GO=00000226F64F7C80 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 268.672 f15380]       hijos: (sin hijos o no legibles)
+[+ 268.672 f15380]   (creado en f11414) GO=00000226F65753E0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 268.672 f15380]       hijos: (sin hijos o no legibles)
+[+ 268.672 f15380]   (creado en f11414) GO=00000226F66EB5E0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 268.672 f15380]       hijos: (sin hijos o no legibles)
+[+ 268.672 f15380] --- app.PadInput distintos vistos en update(): 2 ---
+[+ 268.672 f15380]   PadInput 00000226F710EAF0 isEnable=1 isAutoPad=0 updateCounter=15434 on=0x00000000 trigger=0x00000000 release=0x00000000 axisRawL=(0.00, 0.00)
+[+ 268.672 f15380]   PadInput 00000226F71046B0 isEnable=1 isAutoPad=0 updateCounter=1189 on=0x00000000 trigger=0x00000000 release=0x00000000 axisRawL=(0.00, 0.00)
+[+ 268.672 f15380]   player[0] padInput=00000226F71046B0 isEnable=1 updateCounter=1189 on=0x00000000
+[+ 268.672 f15380]   player[1] padInput=00000226F5ECED60 isEnable=1 updateCounter=0 on=0x00000000
+[+ 268.672 f15380]   player[2] padInput=00000226F5EEC9A0 isEnable=1 updateCounter=0 on=0x00000000
+[+ 268.672 f15380]   P1.<padInput>k__BackingField = 00000226F71046B0
+[+ 268.672 f15380]   P1.<enemyPadInput>k__BackingField = 00000226F62B2770
+[+ 268.672 f15380]   P1.<tracePadInput>k__BackingField = 00000226F62B28E0
+[+ 268.672 f15380]   P1.CachedPadInput = 00000226F62B41A0
+[+ 268.672 f15380] P1=00000226EBD35070 P2=0000000000000000  doUpdate del manager disparado por ultima vez en frame 15379
+[+ 268.672 f15380] PlayerManager=00000226F7206CF0  AdditionalPlayerLoadManager=00000226F7195FD0
+[+ 268.672 f15380] getPlayerNum=3
+[+ 268.672 f15380] players.Count=3
+[+ 268.672 f15380]   player[0] GO='pl0130_dante_dirt' padre='null'
+[+ 268.672 f15380]   player[0] componentes de su GO: app.Player=00000226EBD35070 (tipo real app.PlayerDante) app.character.Character=00000226EBD35070 (tipo real app.PlayerDante) app.PlayerDante=00000226EBD35070 (tipo real app.PlayerDante) 
+[+ 268.672 f15380]   player[0] hijos de su GO: 'IKFootL' 'IKFootR' 'IKHandL' 'IKHandR' 'FBIKTargetHandL' 'FBIKTargetHandR' 'ac01_010_fausthat_cloak' 'ac01_009_emperor_goggles' 
+[+ 268.672 f15380]   player[0] controlType=0(0=Manual,1=Auto) isManuallyControlled=1 isMasterManualPlayer=1 aiModeController=00000226F62B3000
+[+ 268.672 f15380]   player[0] 00000226EBD35070 tipo=app.PlayerDante id=Dante(1) pos=(-12.63, 111.28, -29.62) padInput=00000226F71046B0 [P1/manual]
+[+ 268.672 f15380]   player[1] GO='pl0200_v' padre='null'
+[+ 268.672 f15380]   player[1] componentes de su GO: app.Player=00000226EBF66F40 (tipo real app.PlayerV) app.character.Character=00000226EBF66F40 (tipo real app.PlayerV) app.PlayerV=00000226EBF66F40 (tipo real app.PlayerV) 
+[+ 268.672 f15380]   player[1] hijos de su GO: 'PuppetStayRequester' 'wp02_000_stick' 'effect_pl0200_v' 'effect_pl0200_v' 'effect_pl0200_v' 'FBIKTargetHandL' 'FBIKTargetHandR' 'IKFootL' 
+[+ 268.672 f15380]   player[1] controlType=0(0=Manual,1=Auto) isManuallyControlled=0 isMasterManualPlayer=0 aiModeController=00000226F5ECE370
+[+ 268.672 f15380]   player[1] 00000226EBF66F40 tipo=app.PlayerV id=Gilver(2) pos=(-19.06, 111.33, 24.51) padInput=00000226F5ECED60
+[+ 268.672 f15380]   player[2] GO='pl0030_nero' padre='null'
+[+ 268.672 f15380]   player[2] componentes de su GO: app.Player=00000226EBF59200 (tipo real app.PlayerNero) app.character.Character=00000226EBF59200 (tipo real app.PlayerNero) app.PlayerNero=00000226EBF59200 (tipo real app.PlayerNero) 
+[+ 268.672 f15380]   player[2] hijos de su GO: 'PuppetStayRequester' 'IKFootL' 'IKFootR' 'IKHandL' 'IKHandR' 'pl0000_08_human_arm' 'pl0010_devilWingControllerSS' 'pl0010_devilWingControllerSB' 
+[+ 268.672 f15380]   player[2] controlType=0(0=Manual,1=Auto) isManuallyControlled=0 isMasterManualPlayer=0 aiModeController=00000226F5EEB620
+[+ 268.672 f15380]   player[2] 00000226EBF59200 tipo=app.PlayerNero id=Nero(0) pos=(33.08, 111.27, 4.79) padInput=00000226F5EEC9A0
+[+ 268.672 f15380] APL: isAvailable=1 isBusy=1 isNotLoadPlayerResource=1 isBusyAllPlayerResource=0
+[+ 268.672 f15380]   Requested: 2
+[+ 268.672 f15380]     loader[0] 00000226F63D5500 estado=AdditionalPlayerAvailable(6) pid=Nero(0) costume=Default(0) situation=Dirty(1) finish=0 locWait=0 reload=0
+[+ 268.672 f15380]     loader[1] 00000226F63D55C0 estado=AdditionalPlayerAvailable(6) pid=Gilver(2) costume=Default(0) situation=DirtyM(2) finish=0 locWait=0 reload=0
+[+ 268.672 f15380]   Finished: 0
+[+ 268.672 f15380] peticion P2: loading=0 pid=-1 cos=0 sit=0 ready=-1  P2=0000000000000000
+[+ 268.672 f15380] =========== SONDA DE CAMARA ===========
+[+ 268.672 f15380] via.SceneManager nativo=0000022694AEF5F0
+[+ 268.672 f15380] MainView=0000022692512080
+[+ 268.672 f15380]   WindowSize (como float)=1920 x 1080   (como int32)=1156579328 x 1149698048
+[+ 268.672 f15380]   PresentRect (como float)=0 0 1920 1080   (como int32)=0 0 1156579328 1149698048
+[+ 268.672 f15380] PrimaryCamera=00000226F719FDC0
+[+ 268.672 f15380]   get_FOV: f=0 raw=0x00000000 qword=0x4050400000000000
+[+ 268.672 f15380]   get_AspectRatio: f=1.0842e-19 raw=0x20000000 qword=0x3ffc71c720000000
+[+ 268.672 f15380]   get_NearClipPlane: f=-1.0842e-19 raw=0xa0000000 qword=0x3fc99999a0000000
+[+ 268.672 f15380]   get_FarClipPlane: f=0 raw=0x00000000 qword=0x408f400000000000
+[+ 268.672 f15380] SceneViews objeto=00000226F486B690 tipo=via.SceneView[]
+[+ 268.672 f15380] =========== SONDA DE MANDOS ===========
+[+ 268.672 f15380] llamadas del juego a XInputGetState(0) desde que carga el plugin: 0 (0 = el juego NO usa XInputGetState, o no habia mando conectado)
+[+ 268.672 f15380]   XInput directo, mando 0: CONECTADO  botones=0x0000  LX=0 LY=0 RX=0 RY=0
+[+ 268.672 f15380]   XInput directo, mando 1: no conectado  botones=0x0000  LX=0 LY=0 RX=0 RY=0
+[+ 268.672 f15380]   XInput directo, mando 2: no conectado  botones=0x0000  LX=0 LY=0 RX=0 RY=0
+[+ 268.672 f15380]   XInput directo, mando 3: no conectado  botones=0x0000  LX=0 LY=0 RX=0 RY=0
+[+ 268.672 f15380] via.hid.GamePad nativo=00000226927B6410
+[+ 268.672 f15380]   getConnectingDevicesCount = 1
+[+ 268.672 f15380]   getDevice(User0=0) -> 00000226927BF410 Button=0x0 AxisL=(0.00, 0.00)
+[+ 268.672 f15380]   getDevice(User1=1) -> 00000226927A0140 Button=0x0 AxisL=(0.00, 0.00)
+[+ 268.718 f15380]   getDevice(User2=2) -> 0000000000000006 Button=0x0 AxisL=(-1.50, 0.00)
+[+ 268.718 f15380]   getDevice(User3=3) -> 00000226927A0D70 Button=0x0 AxisL=(-0.00, 0.00)
+[+ 290.062 f16200] latido: frame=16200
+[+ 336.968 f18000] latido: frame=18000
+[+ 365.062 f19080] ORDEN: p2adopt Nero
+[+ 365.062 f19080] hook de personaje en app.PlayerNero::doLateUpdate
+[+ 365.062 f19080] p2input: PadInput de P2 = 00000226F5EEC9A0
+[+ 365.062 f19080] p2adopt: P2 ADOPTADO = 00000226EBF59200 (app.PlayerNero), padInput=00000226F5EEC9A0
+[+ 365.062 f19080]   player[-1] GO='pl0030_nero' padre='null'
+[+ 365.062 f19080]   player[-1] componentes de su GO: app.Player=00000226EBF59200 (tipo real app.PlayerNero) app.character.Character=00000226EBF59200 (tipo real app.PlayerNero) app.PlayerNero=00000226EBF59200 (tipo real app.PlayerNero) 
+[+ 365.062 f19080]   player[-1] hijos de su GO: 'PuppetStayRequester' 'IKFootL' 'IKFootR' 'IKHandL' 'IKHandR' 'pl0000_08_human_arm' 'pl0010_devilWingControllerSS' 'pl0010_devilWingControllerSB' 
+[+ 365.062 f19080]   player[-1] controlType=0(0=Manual,1=Auto) isManuallyControlled=0 isMasterManualPlayer=0 aiModeController=00000226F5EEB620
+[+ 365.062 f19080]   player[-1] 00000226EBF59200 tipo=app.PlayerNero id=Nero(0) pos=(33.08, 111.27, 4.79) padInput=00000226F5EEC9A0 [P2]
+[+ 382.890 f19760] ORDEN: p2warp
+[+ 382.890 f19760] p2warp(warp): destino=(-10.12, 111.36, -29.25) rot=(0.00, 0.58, 0.00, 0.81) -> ok
+[+ 383.937 f19800] latido: frame=19800
+[+ 393.859 f20180] ORDEN: p2manual
+[+ 393.859 f20180] set_playerControlType(Manual) -> ok
+[+ 393.859 f20180]   player[-1] GO='pl0030_nero' padre='null'
+[+ 393.859 f20180]   player[-1] componentes de su GO: app.Player=00000226EBF59200 (tipo real app.PlayerNero) app.character.Character=00000226EBF59200 (tipo real app.PlayerNero) app.PlayerNero=00000226EBF59200 (tipo real app.PlayerNero) 
+[+ 393.859 f20180]   player[-1] hijos de su GO: 'PuppetStayRequester' 'IKFootL' 'IKFootR' 'IKHandL' 'IKHandR' 'pl0000_08_human_arm' 'pl0010_devilWingControllerSS' 'pl0010_devilWingControllerSB' 
+[+ 393.859 f20180]   player[-1] controlType=0(0=Manual,1=Auto) isManuallyControlled=0 isMasterManualPlayer=0 aiModeController=00000226F5EEB620
+[+ 393.859 f20180]   player[-1] 00000226EBF59200 tipo=app.PlayerNero id=Nero(0) pos=(-10.12, 111.36, -29.25) padInput=00000226F5EEC9A0 [P2]
+[+ 404.843 f20600] ORDEN: state
+[+ 404.843 f20600] =========== ESTADO ===========
+[+ 404.843 f20600] grabaciones de create vigentes: 0
+[+ 404.843 f20600] --- GameObjects creados por CharacterFactory.create(prefab,...) [state]: 18 ---
+[+ 404.843 f20600]   (creado en f10191) GO=00000226F6266CC0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 404.843 f20600]       hijos: (sin hijos o no legibles)
+[+ 404.843 f20600]   (creado en f10191) GO=00000226F6551AA0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 404.843 f20600]       hijos: (sin hijos o no legibles)
+[+ 404.859 f20600]   (creado en f10202) GO=00000226F64DB090 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 404.859 f20600]       hijos: (sin hijos o no legibles)
+[+ 404.859 f20600]   (creado en f10202) GO=00000226F657E360 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 404.859 f20600]       hijos: (sin hijos o no legibles)
+[+ 404.859 f20600]   (creado en f10208) GO=00000226F625A180 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 404.859 f20600]       hijos: (sin hijos o no legibles)
+[+ 404.859 f20600]   (creado en f10208) GO=00000226F66B2BE0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 404.859 f20600]       hijos: (sin hijos o no legibles)
+[+ 404.859 f20600]   (creado en f10215) GO=00000226F64C6820 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 404.859 f20600]       hijos: (sin hijos o no legibles)
+[+ 404.859 f20600]   (creado en f10215) GO=00000226F62C9CD0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 404.859 f20600]       hijos: (sin hijos o no legibles)
+[+ 404.859 f20600]   (creado en f10217) GO=00000226F6486720 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 404.859 f20600]       hijos: (sin hijos o no legibles)
+[+ 404.859 f20600]   (creado en f10217) GO=00000226F62BF6A0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 404.859 f20600]       hijos: (sin hijos o no legibles)
+[+ 404.859 f20600]   (creado en f10219) GO=00000226F623C860 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 404.859 f20600]       hijos: (sin hijos o no legibles)
+[+ 404.859 f20600]   (creado en f10219) GO=00000226F627B350 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 404.859 f20600]       hijos: (sin hijos o no legibles)
+[+ 404.859 f20600]   (creado en f11409) GO=00000226F65A3850 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 404.859 f20600]       hijos: (sin hijos o no legibles)
+[+ 404.859 f20600]   (creado en f11409) GO=00000226F63752F0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 404.859 f20600]       hijos: (sin hijos o no legibles)
+[+ 404.859 f20600]   (creado en f11412) GO=00000226F651CC10 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 404.859 f20600]       hijos: (sin hijos o no legibles)
+[+ 404.859 f20600]   (creado en f11412) GO=00000226F64F7C80 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 404.859 f20600]       hijos: (sin hijos o no legibles)
+[+ 404.859 f20600]   (creado en f11414) GO=00000226F65753E0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 404.859 f20600]       hijos: (sin hijos o no legibles)
+[+ 404.859 f20600]   (creado en f11414) GO=00000226F66EB5E0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 404.859 f20600]       hijos: (sin hijos o no legibles)
+[+ 404.859 f20600] --- app.PadInput distintos vistos en update(): 2 ---
+[+ 404.859 f20600]   PadInput 00000226F710EAF0 isEnable=1 isAutoPad=0 updateCounter=20654 on=0x00000000 trigger=0x00000000 release=0x00000000 axisRawL=(0.00, 0.00)
+[+ 404.859 f20600]   PadInput 00000226F71046B0 isEnable=1 isAutoPad=0 updateCounter=6409 on=0x00000000 trigger=0x00000000 release=0x00000000 axisRawL=(0.00, 0.00)
+[+ 404.859 f20600]   player[0] padInput=00000226F71046B0 isEnable=1 updateCounter=6409 on=0x00000000
+[+ 404.859 f20600]   player[1] padInput=00000226F5ECED60 isEnable=1 updateCounter=0 on=0x00000000
+[+ 404.859 f20600]   player[2] padInput=00000226F5EEC9A0 isEnable=1 updateCounter=0 on=0x00000000
+[+ 404.859 f20600]   P1.<padInput>k__BackingField = 00000226F71046B0
+[+ 404.859 f20600]   P1.<enemyPadInput>k__BackingField = 00000226F62B2770
+[+ 404.859 f20600]   P1.<tracePadInput>k__BackingField = 00000226F62B28E0
+[+ 404.859 f20600]   P1.CachedPadInput = 00000226F62B41A0
+[+ 404.859 f20600] P1=00000226EBD35070 P2=00000226EBF59200  doUpdate del manager disparado por ultima vez en frame 20599
+[+ 404.859 f20600] PlayerManager=00000226F7206CF0  AdditionalPlayerLoadManager=00000226F7195FD0
+[+ 404.859 f20600] getPlayerNum=3
+[+ 404.859 f20600] players.Count=3
+[+ 404.859 f20600]   player[0] GO='pl0130_dante_dirt' padre='null'
+[+ 404.859 f20600]   player[0] componentes de su GO: app.Player=00000226EBD35070 (tipo real app.PlayerDante) app.character.Character=00000226EBD35070 (tipo real app.PlayerDante) app.PlayerDante=00000226EBD35070 (tipo real app.PlayerDante) 
+[+ 404.859 f20600]   player[0] hijos de su GO: 'IKFootL' 'IKFootR' 'IKHandL' 'IKHandR' 'FBIKTargetHandL' 'FBIKTargetHandR' 'ac01_010_fausthat_cloak' 'ac01_009_emperor_goggles' 
+[+ 404.859 f20600]   player[0] controlType=0(0=Manual,1=Auto) isManuallyControlled=1 isMasterManualPlayer=1 aiModeController=00000226F62B3000
+[+ 404.859 f20600]   player[0] 00000226EBD35070 tipo=app.PlayerDante id=Dante(1) pos=(-11.79, 111.37, -29.31) padInput=00000226F71046B0 [P1/manual]
+[+ 404.859 f20600]   player[1] GO='pl0200_v' padre='null'
+[+ 404.859 f20600]   player[1] componentes de su GO: app.Player=00000226EBF66F40 (tipo real app.PlayerV) app.character.Character=00000226EBF66F40 (tipo real app.PlayerV) app.PlayerV=00000226EBF66F40 (tipo real app.PlayerV) 
+[+ 404.859 f20600]   player[1] hijos de su GO: 'PuppetStayRequester' 'wp02_000_stick' 'effect_pl0200_v' 'effect_pl0200_v' 'effect_pl0200_v' 'FBIKTargetHandL' 'FBIKTargetHandR' 'IKFootL' 
+[+ 404.859 f20600]   player[1] controlType=0(0=Manual,1=Auto) isManuallyControlled=0 isMasterManualPlayer=0 aiModeController=00000226F5ECE370
+[+ 404.859 f20600]   player[1] 00000226EBF66F40 tipo=app.PlayerV id=Gilver(2) pos=(-19.06, 111.33, 24.51) padInput=00000226F5ECED60
+[+ 404.859 f20600]   player[2] GO='pl0030_nero' padre='null'
+[+ 404.859 f20600]   player[2] componentes de su GO: app.Player=00000226EBF59200 (tipo real app.PlayerNero) app.character.Character=00000226EBF59200 (tipo real app.PlayerNero) app.PlayerNero=00000226EBF59200 (tipo real app.PlayerNero) 
+[+ 404.859 f20600]   player[2] hijos de su GO: 'PuppetStayRequester' 'IKFootL' 'IKFootR' 'IKHandL' 'IKHandR' 'pl0000_08_human_arm' 'pl0010_devilWingControllerSS' 'pl0010_devilWingControllerSB' 
+[+ 404.859 f20600]   player[2] controlType=0(0=Manual,1=Auto) isManuallyControlled=0 isMasterManualPlayer=0 aiModeController=00000226F5EEB620
+[+ 404.859 f20600]   player[2] 00000226EBF59200 tipo=app.PlayerNero id=Nero(0) pos=(-10.12, 111.36, -29.25) padInput=00000226F5EEC9A0 [P2]
+[+ 404.859 f20600] APL: isAvailable=1 isBusy=1 isNotLoadPlayerResource=1 isBusyAllPlayerResource=0
+[+ 404.859 f20600]   Requested: 2
+[+ 404.859 f20600]     loader[0] 00000226F63D5500 estado=AdditionalPlayerAvailable(6) pid=Nero(0) costume=Default(0) situation=Dirty(1) finish=0 locWait=0 reload=0
+[+ 404.859 f20600]     loader[1] 00000226F63D55C0 estado=AdditionalPlayerAvailable(6) pid=Gilver(2) costume=Default(0) situation=DirtyM(2) finish=0 locWait=0 reload=0
+[+ 404.859 f20600]   Finished: 0
+[+ 404.859 f20600] peticion P2: loading=0 pid=-1 cos=0 sit=0 ready=-1  P2=00000226EBF59200
+[+ 404.859 f20600] =========== SONDA DE CAMARA ===========
+[+ 404.859 f20600] via.SceneManager nativo=0000022694AEF5F0
+[+ 404.859 f20600] MainView=0000022692512080
+[+ 404.859 f20600]   WindowSize (como float)=1920 x 1080   (como int32)=1156579328 x 1149698048
+[+ 404.859 f20600]   PresentRect (como float)=0 0 1920 1080   (como int32)=0 0 1156579328 1149698048
+[+ 404.859 f20600] PrimaryCamera=00000226F719FDC0
+[+ 404.859 f20600]   get_FOV: f=0 raw=0x00000000 qword=0x4050400000000000
+[+ 404.859 f20600]   get_AspectRatio: f=1.0842e-19 raw=0x20000000 qword=0x3ffc71c720000000
+[+ 404.859 f20600]   get_NearClipPlane: f=-1.0842e-19 raw=0xa0000000 qword=0x3fc99999a0000000
+[+ 404.859 f20600]   get_FarClipPlane: f=0 raw=0x00000000 qword=0x408f400000000000
+[+ 404.859 f20600] SceneViews objeto=00000226F4862880 tipo=via.SceneView[]
+[+ 404.859 f20600] =========== SONDA DE MANDOS ===========
+[+ 404.859 f20600] llamadas del juego a XInputGetState(0) desde que carga el plugin: 0 (0 = el juego NO usa XInputGetState, o no habia mando conectado)
+[+ 404.859 f20600]   XInput directo, mando 0: CONECTADO  botones=0x0000  LX=0 LY=0 RX=0 RY=0
+[+ 404.859 f20600]   XInput directo, mando 1: no conectado  botones=0x0000  LX=0 LY=0 RX=0 RY=0
+[+ 404.859 f20600]   XInput directo, mando 2: no conectado  botones=0x0000  LX=0 LY=0 RX=0 RY=0
+[+ 404.859 f20600]   XInput directo, mando 3: no conectado  botones=0x0000  LX=0 LY=0 RX=0 RY=0
+[+ 404.859 f20600] via.hid.GamePad nativo=00000226927B6410
+[+ 404.859 f20600]   getConnectingDevicesCount = 1
+[+ 404.859 f20600]   getDevice(User0=0) -> 00000226927BF410 Button=0x0 AxisL=(0.00, 0.00)
+[+ 404.859 f20600]   getDevice(User1=1) -> 00000226927A0140 Button=0x0 AxisL=(0.00, 0.00)
+[+ 404.859 f20600]   getDevice(User2=2) -> 0000000000000006 Button=0x0 AxisL=(-1.50, 0.00)
+[+ 404.859 f20600]   getDevice(User3=3) -> 00000226927A0D70 Button=0x0 AxisL=(-0.00, 0.00)
+[+ 430.968 f21600] latido: frame=21600
+[+ 452.140 f22398] ORDEN: p2spawn
+[+ 452.140 f22398] p2spawn: NO hay ningun CharacterFactory.create InGame grabado. El plugin debe estar cargado ANTES de que empiece la mision: reinicia la mision (o reiniciala desde el menu) con el plugin ya activo.
+[+ 454.031 f22470] ORDEN: p2load
+[+ 454.031 f22470] IDs para P2: player=Nero(0) costume=Default(0) situation=Dirty(1) (P1 player=Dante(1))
+[+ 454.031 f22470] requestPreloadPlayerResource(0) -> ok
+[+ 454.031 f22470] requestLoadPlayerResource -> ok
+[+ 454.031 f22470] Carga pedida. Observa dmc5_ss.log / dmc5_ss_trace.log; luego usa p2state y, si hace falta, p2activate.
+[+ 454.031 f22470] isReadyPlayerResource -> TRUE
+[+ 454.031 f22470]   Requested: 2
+[+ 454.031 f22470]     loader[0] 00000226F63D5500 estado=AdditionalPlayerAvailable(6) pid=Nero(0) costume=Default(0) situation=Dirty(1) finish=0 locWait=0 reload=0
+[+ 454.031 f22470]     loader[1] 00000226F63D55C0 estado=AdditionalPlayerAvailable(6) pid=Gilver(2) costume=Default(0) situation=DirtyM(2) finish=0 locWait=0 reload=0
+[+ 454.031 f22470]   Finished: 0
+[+ 466.859 f22959] ORDEN: recon
+[+ 466.859 f22959] dump app.CharacterFactory.CostumeID -> 11 metodos, 5 campos
+[+ 466.859 f22959] dump app.AdditionalPlayerLoadManager -> 71 metodos, 5 campos
+[+ 466.859 f22959] dump app.AdditionalPlayerLoadManager.AdditionalPlayerLoader -> 15 metodos, 9 campos
+[+ 466.859 f22959] dump app.CharacterFactory -> 74 metodos, 10 campos
+[+ 466.859 f22959] dump app.CharacterFactory.RequestData -> 3 metodos, 0 campos
+[+ 466.859 f22959] dump app.CharacterFactory.FactoryID -> 6 metodos, 3 campos
+[+ 466.859 f22959] dump app.CharacterFactory.CostumeData -> 7 metodos, 15 campos
+[+ 466.859 f22959] dump app.CharacterFactoryData -> 12 metodos, 1 campos
+[+ 466.859 f22959] dump app.CharacterFactory.FinishCreationEvent -> 4 metodos, 0 campos
+[+ 466.859 f22959] dump via.render.layer.Scene -> 58 metodos, 0 campos
+[+ 466.859 f22959] dump via.SceneView -> 37 metodos, 0 campos
+[+ 466.859 f22959] dump via.SceneManager -> 20 metodos, 0 campos
+[+ 466.859 f22959] dump app.PadInput -> 71 metodos, 25 campos
+[+ 466.875 f22959] dump app.Player -> 212 metodos, 93 campos
+[+ 466.875 f22959] dump app.PlayerManager -> 95 metodos, 16 campos
+[+ 466.875 f22959] dump app.CameraManager -> 90 metodos, 17 campos
+[+ 466.875 f22959] dump app.PlayerCameraController -> 383 metodos, 200 campos
+[+ 466.875 f22959] dump via.hid.GamePad -> 23 metodos, 0 campos
+[+ 466.875 f22959] [diag] dump_default terminado
+[+ 474.906 f23266] ORDEN: state
+[+ 474.906 f23266] =========== ESTADO ===========
+[+ 474.906 f23266] grabaciones de create vigentes: 0
+[+ 474.906 f23266] --- GameObjects creados por CharacterFactory.create(prefab,...) [state]: 18 ---
+[+ 474.906 f23266]   (creado en f10191) GO=00000226F6266CC0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 474.906 f23266]       hijos: (sin hijos o no legibles)
+[+ 474.906 f23266]   (creado en f10191) GO=00000226F6551AA0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 474.906 f23266]       hijos: (sin hijos o no legibles)
+[+ 474.906 f23266]   (creado en f10202) GO=00000226F64DB090 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 474.906 f23266]       hijos: (sin hijos o no legibles)
+[+ 474.906 f23266]   (creado en f10202) GO=00000226F657E360 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 474.906 f23266]       hijos: (sin hijos o no legibles)
+[+ 474.906 f23266]   (creado en f10208) GO=00000226F625A180 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 474.906 f23266]       hijos: (sin hijos o no legibles)
+[+ 474.906 f23266]   (creado en f10208) GO=00000226F66B2BE0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 474.906 f23266]       hijos: (sin hijos o no legibles)
+[+ 474.906 f23266]   (creado en f10215) GO=00000226F64C6820 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 474.906 f23266]       hijos: (sin hijos o no legibles)
+[+ 474.906 f23266]   (creado en f10215) GO=00000226F62C9CD0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 474.906 f23266]       hijos: (sin hijos o no legibles)
+[+ 474.906 f23266]   (creado en f10217) GO=00000226F6486720 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 474.906 f23266]       hijos: (sin hijos o no legibles)
+[+ 474.906 f23266]   (creado en f10217) GO=00000226F62BF6A0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 474.906 f23266]       hijos: (sin hijos o no legibles)
+[+ 474.906 f23266]   (creado en f10219) GO=00000226F623C860 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 474.906 f23266]       hijos: (sin hijos o no legibles)
+[+ 474.906 f23266]   (creado en f10219) GO=00000226F627B350 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 474.906 f23266]       hijos: (sin hijos o no legibles)
+[+ 474.906 f23266]   (creado en f11409) GO=00000226F65A3850 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 474.906 f23266]       hijos: (sin hijos o no legibles)
+[+ 474.906 f23266]   (creado en f11409) GO=00000226F63752F0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 474.906 f23266]       hijos: (sin hijos o no legibles)
+[+ 474.906 f23266]   (creado en f11412) GO=00000226F651CC10 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 474.906 f23266]       hijos: (sin hijos o no legibles)
+[+ 474.906 f23266]   (creado en f11412) GO=00000226F64F7C80 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 474.906 f23266]       hijos: (sin hijos o no legibles)
+[+ 474.906 f23266]   (creado en f11414) GO=00000226F65753E0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 474.906 f23266]       hijos: (sin hijos o no legibles)
+[+ 474.906 f23266]   (creado en f11414) GO=00000226F66EB5E0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 474.906 f23266]       hijos: (sin hijos o no legibles)
+[+ 474.906 f23266] --- app.PadInput distintos vistos en update(): 2 ---
+[+ 474.906 f23266]   PadInput 00000226F710EAF0 isEnable=1 isAutoPad=0 updateCounter=23320 on=0x00000000 trigger=0x00000000 release=0x00000000 axisRawL=(0.00, 0.00)
+[+ 474.906 f23266]   PadInput 00000226F71046B0 isEnable=1 isAutoPad=0 updateCounter=9075 on=0x00000000 trigger=0x00000000 release=0x00000000 axisRawL=(0.00, 0.00)
+[+ 474.906 f23266]   player[0] padInput=00000226F71046B0 isEnable=1 updateCounter=9075 on=0x00000000
+[+ 474.906 f23266]   player[1] padInput=00000226F5ECED60 isEnable=1 updateCounter=0 on=0x00000000
+[+ 474.906 f23266]   player[2] padInput=00000226F5EEC9A0 isEnable=1 updateCounter=0 on=0x00000000
+[+ 474.906 f23266]   P1.<padInput>k__BackingField = 00000226F71046B0
+[+ 474.906 f23266]   P1.<enemyPadInput>k__BackingField = 00000226F62B2770
+[+ 474.906 f23266]   P1.<tracePadInput>k__BackingField = 00000226F62B28E0
+[+ 474.906 f23266]   P1.CachedPadInput = 00000226F62B41A0
+[+ 474.906 f23266] P1=00000226EBD35070 P2=00000226EBF59200  doUpdate del manager disparado por ultima vez en frame 23265
+[+ 474.906 f23266] PlayerManager=00000226F7206CF0  AdditionalPlayerLoadManager=00000226F7195FD0
+[+ 474.906 f23266] getPlayerNum=3
+[+ 474.906 f23266] players.Count=3
+[+ 474.906 f23266]   player[0] GO='pl0130_dante_dirt' padre='null'
+[+ 474.906 f23266]   player[0] componentes de su GO: app.Player=00000226EBD35070 (tipo real app.PlayerDante) app.character.Character=00000226EBD35070 (tipo real app.PlayerDante) app.PlayerDante=00000226EBD35070 (tipo real app.PlayerDante) 
+[+ 474.906 f23266]   player[0] hijos de su GO: 'IKFootL' 'IKFootR' 'IKHandL' 'IKHandR' 'FBIKTargetHandL' 'FBIKTargetHandR' 'ac01_010_fausthat_cloak' 'ac01_009_emperor_goggles' 
+[+ 474.906 f23266]   player[0] controlType=0(0=Manual,1=Auto) isManuallyControlled=1 isMasterManualPlayer=1 aiModeController=00000226F62B3000
+[+ 474.906 f23266]   player[0] 00000226EBD35070 tipo=app.PlayerDante id=Dante(1) pos=(-11.48, 111.14, -30.24) padInput=00000226F71046B0 [P1/manual]
+[+ 474.906 f23266]   player[1] GO='pl0200_v' padre='null'
+[+ 474.906 f23266]   player[1] componentes de su GO: app.Player=00000226EBF66F40 (tipo real app.PlayerV) app.character.Character=00000226EBF66F40 (tipo real app.PlayerV) app.PlayerV=00000226EBF66F40 (tipo real app.PlayerV) 
+[+ 474.906 f23266]   player[1] hijos de su GO: 'PuppetStayRequester' 'wp02_000_stick' 'effect_pl0200_v' 'effect_pl0200_v' 'effect_pl0200_v' 'FBIKTargetHandL' 'FBIKTargetHandR' 'IKFootL' 
+[+ 474.906 f23266]   player[1] controlType=0(0=Manual,1=Auto) isManuallyControlled=0 isMasterManualPlayer=0 aiModeController=00000226F5ECE370
+[+ 474.906 f23266]   player[1] 00000226EBF66F40 tipo=app.PlayerV id=Gilver(2) pos=(-19.06, 111.33, 24.51) padInput=00000226F5ECED60
+[+ 474.906 f23266]   player[2] GO='pl0030_nero' padre='null'
+[+ 474.906 f23266]   player[2] componentes de su GO: app.Player=00000226EBF59200 (tipo real app.PlayerNero) app.character.Character=00000226EBF59200 (tipo real app.PlayerNero) app.PlayerNero=00000226EBF59200 (tipo real app.PlayerNero) 
+[+ 474.906 f23266]   player[2] hijos de su GO: 'PuppetStayRequester' 'IKFootL' 'IKFootR' 'IKHandL' 'IKHandR' 'pl0000_08_human_arm' 'pl0010_devilWingControllerSS' 'pl0010_devilWingControllerSB' 
+[+ 474.906 f23266]   player[2] controlType=0(0=Manual,1=Auto) isManuallyControlled=0 isMasterManualPlayer=0 aiModeController=00000226F5EEB620
+[+ 474.906 f23266]   player[2] 00000226EBF59200 tipo=app.PlayerNero id=Nero(0) pos=(-10.12, 111.36, -29.25) padInput=00000226F5EEC9A0 [P2]
+[+ 474.906 f23266] APL: isAvailable=1 isBusy=1 isNotLoadPlayerResource=1 isBusyAllPlayerResource=0
+[+ 474.906 f23266]   Requested: 2
+[+ 474.906 f23266]     loader[0] 00000226F63D5500 estado=AdditionalPlayerAvailable(6) pid=Nero(0) costume=Default(0) situation=Dirty(1) finish=0 locWait=0 reload=0
+[+ 474.906 f23266]     loader[1] 00000226F63D55C0 estado=AdditionalPlayerAvailable(6) pid=Gilver(2) costume=Default(0) situation=DirtyM(2) finish=0 locWait=0 reload=0
+[+ 474.906 f23266]   Finished: 0
+[+ 474.906 f23266] peticion P2: loading=1 pid=0 cos=0 sit=1 ready=1  P2=00000226EBF59200
+[+ 474.906 f23266] =========== SONDA DE CAMARA ===========
+[+ 474.906 f23266] via.SceneManager nativo=0000022694AEF5F0
+[+ 474.906 f23266] MainView=0000022692512080
+[+ 474.906 f23266]   WindowSize (como float)=1920 x 1080   (como int32)=1156579328 x 1149698048
+[+ 474.906 f23266]   PresentRect (como float)=0 0 1920 1080   (como int32)=0 0 1156579328 1149698048
+[+ 474.906 f23266] PrimaryCamera=00000226F719FDC0
+[+ 474.906 f23266]   get_FOV: f=0 raw=0x00000000 qword=0x4050400000000000
+[+ 474.906 f23266]   get_AspectRatio: f=1.0842e-19 raw=0x20000000 qword=0x3ffc71c720000000
+[+ 474.906 f23266]   get_NearClipPlane: f=-1.0842e-19 raw=0xa0000000 qword=0x3fc99999a0000000
+[+ 474.906 f23266]   get_FarClipPlane: f=0 raw=0x00000000 qword=0x408f400000000000
+[+ 474.906 f23266] SceneViews objeto=00000226F4836BF0 tipo=via.SceneView[]
+[+ 474.906 f23266] =========== SONDA DE MANDOS ===========
+[+ 474.906 f23266] llamadas del juego a XInputGetState(0) desde que carga el plugin: 0 (0 = el juego NO usa XInputGetState, o no habia mando conectado)
+[+ 474.906 f23266]   XInput directo, mando 0: CONECTADO  botones=0x0000  LX=128 LY=-129 RX=0 RY=-1
+[+ 474.906 f23266]   XInput directo, mando 1: no conectado  botones=0x0000  LX=0 LY=0 RX=0 RY=0
+[+ 474.906 f23266]   XInput directo, mando 2: no conectado  botones=0x0000  LX=0 LY=0 RX=0 RY=0
+[+ 474.906 f23266]   XInput directo, mando 3: no conectado  botones=0x0000  LX=0 LY=0 RX=0 RY=0
+[+ 474.906 f23266] via.hid.GamePad nativo=00000226927B6410
+[+ 474.906 f23266]   getConnectingDevicesCount = 1
+[+ 474.906 f23266]   getDevice(User0=0) -> 00000226927BF410 Button=0x0 AxisL=(0.00, 0.00)
+[+ 474.906 f23266]   getDevice(User1=1) -> 00000226927A0140 Button=0x0 AxisL=(0.00, 0.00)
+[+ 474.906 f23266]   getDevice(User2=2) -> 0000000000000006 Button=0x0 AxisL=(-1.50, 0.00)
+[+ 474.906 f23266]   getDevice(User3=3) -> 00000226927A0D70 Button=0x0 AxisL=(-0.00, 0.00)
+[+ 478.406 f23400] latido: frame=23400
+[+ 480.843 f23493] ORDEN: pad
+[+ 480.843 f23493] =========== SONDA DE MANDOS ===========
+[+ 480.843 f23493] llamadas del juego a XInputGetState(0) desde que carga el plugin: 0 (0 = el juego NO usa XInputGetState, o no habia mando conectado)
+[+ 480.843 f23493]   XInput directo, mando 0: CONECTADO  botones=0x0000  LX=128 LY=-129 RX=0 RY=-1
+[+ 480.843 f23493]   XInput directo, mando 1: no conectado  botones=0x0000  LX=0 LY=0 RX=0 RY=0
+[+ 480.843 f23493]   XInput directo, mando 2: no conectado  botones=0x0000  LX=0 LY=0 RX=0 RY=0
+[+ 480.843 f23493]   XInput directo, mando 3: no conectado  botones=0x0000  LX=0 LY=0 RX=0 RY=0
+[+ 480.843 f23493] via.hid.GamePad nativo=00000226927B6410
+[+ 480.843 f23493]   getConnectingDevicesCount = 1
+[+ 480.843 f23493]   getDevice(User0=0) -> 00000226927BF410 Button=0x0 AxisL=(0.00, 0.00)
+[+ 480.843 f23493]   getDevice(User1=1) -> 00000226927A0140 Button=0x0 AxisL=(0.00, 0.00)
+[+ 480.843 f23493]   getDevice(User2=2) -> 0000000000000006 Button=0x0 AxisL=(-1.50, 0.00)
+[+ 480.843 f23493]   getDevice(User3=3) -> 00000226927A0D70 Button=0x0 AxisL=(-0.00, 0.00)
+[+ 486.140 f23696] ORDEN: p2spawn
+[+ 486.140 f23696] p2spawn: NO hay ningun CharacterFactory.create InGame grabado. El plugin debe estar cargado ANTES de que empiece la mision: reinicia la mision (o reiniciala desde el menu) con el plugin ya activo.
+[+ 506.250 f24466] ORDEN: state
+[+ 506.250 f24466] =========== ESTADO ===========
+[+ 506.250 f24466] grabaciones de create vigentes: 0
+[+ 506.250 f24466] --- GameObjects creados por CharacterFactory.create(prefab,...) [state]: 18 ---
+[+ 506.250 f24466]   (creado en f10191) GO=00000226F6266CC0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 506.250 f24466]       hijos: (sin hijos o no legibles)
+[+ 506.250 f24466]   (creado en f10191) GO=00000226F6551AA0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 506.250 f24466]       hijos: (sin hijos o no legibles)
+[+ 506.250 f24466]   (creado en f10202) GO=00000226F64DB090 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 506.250 f24466]       hijos: (sin hijos o no legibles)
+[+ 506.250 f24466]   (creado en f10202) GO=00000226F657E360 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 506.250 f24466]       hijos: (sin hijos o no legibles)
+[+ 506.250 f24466]   (creado en f10208) GO=00000226F625A180 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 506.250 f24466]       hijos: (sin hijos o no legibles)
+[+ 506.250 f24466]   (creado en f10208) GO=00000226F66B2BE0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 506.250 f24466]       hijos: (sin hijos o no legibles)
+[+ 506.250 f24466]   (creado en f10215) GO=00000226F64C6820 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 506.250 f24466]       hijos: (sin hijos o no legibles)
+[+ 506.250 f24466]   (creado en f10215) GO=00000226F62C9CD0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 506.250 f24466]       hijos: (sin hijos o no legibles)
+[+ 506.250 f24466]   (creado en f10217) GO=00000226F6486720 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 506.250 f24466]       hijos: (sin hijos o no legibles)
+[+ 506.250 f24466]   (creado en f10217) GO=00000226F62BF6A0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 506.250 f24466]       hijos: (sin hijos o no legibles)
+[+ 506.250 f24466]   (creado en f10219) GO=00000226F623C860 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 506.250 f24466]       hijos: (sin hijos o no legibles)
+[+ 506.250 f24466]   (creado en f10219) GO=00000226F627B350 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 506.250 f24466]       hijos: (sin hijos o no legibles)
+[+ 506.250 f24466]   (creado en f11409) GO=00000226F65A3850 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 506.250 f24466]       hijos: (sin hijos o no legibles)
+[+ 506.250 f24466]   (creado en f11409) GO=00000226F63752F0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 506.250 f24466]       hijos: (sin hijos o no legibles)
+[+ 506.250 f24466]   (creado en f11412) GO=00000226F651CC10 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 506.250 f24466]       hijos: (sin hijos o no legibles)
+[+ 506.250 f24466]   (creado en f11412) GO=00000226F64F7C80 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 506.250 f24466]       hijos: (sin hijos o no legibles)
+[+ 506.250 f24466]   (creado en f11414) GO=00000226F65753E0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 506.250 f24466]       hijos: (sin hijos o no legibles)
+[+ 506.250 f24466]   (creado en f11414) GO=00000226F66EB5E0 nombre='null' padre='null' componentes: (ninguno de los tipos probados)
+[+ 506.250 f24466]       hijos: (sin hijos o no legibles)
+[+ 506.250 f24466] --- app.PadInput distintos vistos en update(): 2 ---
+[+ 506.250 f24466]   PadInput 00000226F710EAF0 isEnable=1 isAutoPad=0 updateCounter=24520 on=0x00000000 trigger=0x00000000 release=0x00000000 axisRawL=(0.00, 0.00)
+[+ 506.250 f24466]   PadInput 00000226F71046B0 isEnable=1 isAutoPad=0 updateCounter=10275 on=0x00000000 trigger=0x00000000 release=0x00000000 axisRawL=(0.00, 0.00)
+[+ 506.250 f24466]   player[0] padInput=00000226F71046B0 isEnable=1 updateCounter=10275 on=0x00000000
+[+ 506.250 f24466]   player[1] padInput=00000226F5ECED60 isEnable=1 updateCounter=0 on=0x00000000
+[+ 506.250 f24466]   player[2] padInput=00000226F5EEC9A0 isEnable=1 updateCounter=0 on=0x00000000
+[+ 506.250 f24466]   P1.<padInput>k__BackingField = 00000226F71046B0
+[+ 506.250 f24466]   P1.<enemyPadInput>k__BackingField = 00000226F62B2770
+[+ 506.250 f24466]   P1.<tracePadInput>k__BackingField = 00000226F62B28E0
+[+ 506.250 f24466]   P1.CachedPadInput = 00000226F62B41A0
+[+ 506.250 f24466] P1=00000226EBD35070 P2=00000226EBF59200  doUpdate del manager disparado por ultima vez en frame 24465
+[+ 506.250 f24466] PlayerManager=00000226F7206CF0  AdditionalPlayerLoadManager=00000226F7195FD0
+[+ 506.250 f24466] getPlayerNum=3
+[+ 506.250 f24466] players.Count=3
+[+ 506.250 f24466]   player[0] GO='pl0130_dante_dirt' padre='null'
+[+ 506.250 f24466]   player[0] componentes de su GO: app.Player=00000226EBD35070 (tipo real app.PlayerDante) app.character.Character=00000226EBD35070 (tipo real app.PlayerDante) app.PlayerDante=00000226EBD35070 (tipo real app.PlayerDante) 
+[+ 506.250 f24466]   player[0] hijos de su GO: 'IKFootL' 'IKFootR' 'IKHandL' 'IKHandR' 'FBIKTargetHandL' 'FBIKTargetHandR' 'ac01_010_fausthat_cloak' 'ac01_009_emperor_goggles' 
+[+ 506.250 f24466]   player[0] controlType=0(0=Manual,1=Auto) isManuallyControlled=1 isMasterManualPlayer=1 aiModeController=00000226F62B3000
+[+ 506.250 f24466]   player[0] 00000226EBD35070 tipo=app.PlayerDante id=Dante(1) pos=(-11.48, 111.14, -30.24) padInput=00000226F71046B0 [P1/manual]
+[+ 506.250 f24466]   player[1] GO='pl0200_v' padre='null'
+[+ 506.250 f24466]   player[1] componentes de su GO: app.Player=00000226EBF66F40 (tipo real app.PlayerV) app.character.Character=00000226EBF66F40 (tipo real app.PlayerV) app.PlayerV=00000226EBF66F40 (tipo real app.PlayerV) 
+[+ 506.250 f24466]   player[1] hijos de su GO: 'PuppetStayRequester' 'wp02_000_stick' 'effect_pl0200_v' 'effect_pl0200_v' 'effect_pl0200_v' 'FBIKTargetHandL' 'FBIKTargetHandR' 'IKFootL' 
+[+ 506.250 f24466]   player[1] controlType=0(0=Manual,1=Auto) isManuallyControlled=0 isMasterManualPlayer=0 aiModeController=00000226F5ECE370
+[+ 506.250 f24466]   player[1] 00000226EBF66F40 tipo=app.PlayerV id=Gilver(2) pos=(-19.06, 111.33, 24.51) padInput=00000226F5ECED60
+[+ 506.250 f24466]   player[2] GO='pl0030_nero' padre='null'
+[+ 506.250 f24466]   player[2] componentes de su GO: app.Player=00000226EBF59200 (tipo real app.PlayerNero) app.character.Character=00000226EBF59200 (tipo real app.PlayerNero) app.PlayerNero=00000226EBF59200 (tipo real app.PlayerNero) 
+[+ 506.250 f24466]   player[2] hijos de su GO: 'PuppetStayRequester' 'IKFootL' 'IKFootR' 'IKHandL' 'IKHandR' 'pl0000_08_human_arm' 'pl0010_devilWingControllerSS' 'pl0010_devilWingControllerSB' 
+[+ 506.250 f24466]   player[2] controlType=0(0=Manual,1=Auto) isManuallyControlled=0 isMasterManualPlayer=0 aiModeController=00000226F5EEB620
+[+ 506.250 f24466]   player[2] 00000226EBF59200 tipo=app.PlayerNero id=Nero(0) pos=(-10.12, 111.36, -29.25) padInput=00000226F5EEC9A0 [P2]
+[+ 506.250 f24466] APL: isAvailable=1 isBusy=1 isNotLoadPlayerResource=1 isBusyAllPlayerResource=0
+[+ 506.250 f24466]   Requested: 2
+[+ 506.250 f24466]     loader[0] 00000226F63D5500 estado=AdditionalPlayerAvailable(6) pid=Nero(0) costume=Default(0) situation=Dirty(1) finish=0 locWait=0 reload=0
+[+ 506.250 f24466]     loader[1] 00000226F63D55C0 estado=AdditionalPlayerAvailable(6) pid=Gilver(2) costume=Default(0) situation=DirtyM(2) finish=0 locWait=0 reload=0
+[+ 506.250 f24466]   Finished: 0
+[+ 506.250 f24466] peticion P2: loading=1 pid=0 cos=0 sit=1 ready=1  P2=00000226EBF59200
+[+ 506.250 f24466] =========== SONDA DE CAMARA ===========
+[+ 506.250 f24466] via.SceneManager nativo=0000022694AEF5F0
+[+ 506.250 f24466] MainView=0000022692512080
+[+ 506.250 f24466]   WindowSize (como float)=1920 x 1080   (como int32)=1156579328 x 1149698048
+[+ 506.250 f24466]   PresentRect (como float)=0 0 1920 1080   (como int32)=0 0 1156579328 1149698048
+[+ 506.250 f24466] PrimaryCamera=00000226F719FDC0
+[+ 506.250 f24466]   get_FOV: f=0 raw=0x00000000 qword=0x4050400000000000
+[+ 506.250 f24466]   get_AspectRatio: f=1.0842e-19 raw=0x20000000 qword=0x3ffc71c720000000
+[+ 506.250 f24466]   get_NearClipPlane: f=-1.0842e-19 raw=0xa0000000 qword=0x3fc99999a0000000
+[+ 506.250 f24466]   get_FarClipPlane: f=0 raw=0x00000000 qword=0x408f400000000000
+[+ 506.250 f24466] SceneViews objeto=00000226F48BD4B0 tipo=via.SceneView[]
+[+ 506.250 f24466] =========== SONDA DE MANDOS ===========
+[+ 506.250 f24466] llamadas del juego a XInputGetState(0) desde que carga el plugin: 0 (0 = el juego NO usa XInputGetState, o no habia mando conectado)
+[+ 506.250 f24466]   XInput directo, mando 0: CONECTADO  botones=0x0000  LX=128 LY=-129 RX=0 RY=-1
+[+ 506.250 f24466]   XInput directo, mando 1: no conectado  botones=0x0000  LX=0 LY=0 RX=0 RY=0
+[+ 506.250 f24466]   XInput directo, mando 2: no conectado  botones=0x0000  LX=0 LY=0 RX=0 RY=0
+[+ 506.250 f24466]   XInput directo, mando 3: no conectado  botones=0x0000  LX=0 LY=0 RX=0 RY=0
+[+ 506.250 f24466] via.hid.GamePad nativo=00000226927B6410
+[+ 506.250 f24466]   getConnectingDevicesCount = 1
+[+ 506.250 f24466]   getDevice(User0=0) -> 00000226927BF410 Button=0x0 AxisL=(0.00, 0.00)
+[+ 506.250 f24466]   getDevice(User1=1) -> 00000226927A0140 Button=0x0 AxisL=(0.00, 0.00)
+[+ 506.250 f24466]   getDevice(User2=2) -> 0000000000000006 Button=0x0 AxisL=(-1.50, 0.00)
+[+ 506.250 f24466]   getDevice(User3=3) -> 00000226927A0D70 Button=0x0 AxisL=(-0.00, 0.00)
+[+ 519.578 f25200] latido: frame=25200
+[+ 540.625 f26460] P1 desaparecio (manualPlayer == null): se descartan P1/P2 (las grabaciones de create se conservan hasta que el juego las descargue)
+[+ 540.625 f26460] PlayerManager.players: 3 -> -1
+[+ 542.125 f26550] PlayerManager cambio: 00000226F7206CF0 -> 0000000000000000 (nueva mision o fin de mision)
